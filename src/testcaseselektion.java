@@ -57,10 +57,39 @@
                     int x = 41;
                     int y = 67;
 
-                    System.out.println(x + y < 100);
-                    
+                    System.out.println(x + y > 100);
+
 
 
 
                 }}
+                class Selektion2b{
+                    public static void main(String[] args) {
+                        System.out.println("Selektion exercise 2b");
+                        int x = 0;
+                        int y = 0;
+
+                        System.out.println(x + y > 100);
+
+
+
+                    }
+                }
+                class Selektion2c{
+                    public static void main(String[] args) {
+                        System.out.println("Selektion exercise 2c");
+                        int x = -100;
+                        int y = (x-100);
+
+                        System.out.print(x + y > 100);
+
+                    }}
+
+                    class Selektion3a{
+                        public static void main(String[] args) {
+                            System.out.println("Selektion exercise 3a");
+                            int first = 50;
+                            int second = 50;
+
+                        }}
 
